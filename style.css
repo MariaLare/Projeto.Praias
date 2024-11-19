@@ -1,0 +1,80 @@
+/*Abaixo estilizamos o nosso logotipo por meio do id, precisamos colocar o # antes do nome*/
+#logo{
+    /*Transforma os cantos da imagem em cantos curvos, arredondando a imagem*/
+    border-radius: 50%;
+    /*Modifica a largura do elemento*/
+    
+    width: 5%;
+    /*Modifica a altura do elemento*/
+    height: 5%;
+   
+}
+
+.ladoalado2{
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    position:fixed;
+    z-index: 1;
+    align-items: center;
+    gap: 1rem;
+}
+/*Abaixo estamos modificando todos os elementos do body que é o corpo da nossa página, sempre que queremos estilizar um elemento pelo o seu nome, colocamos apenas o nome do elemento seguido das chaves*/
+
+body{
+
+    /*Estilizar o fundo nossa pagina aplicando uma cor*/
+    background-color: rgb(160, 142, 182);
+    font-family: Cambria, Cochin, Georgia, Times, 'Baskerville', serif;
+/*Abaixo estilizamos dois elementos do html ao mesmo tempo, usamos esta técnica quando ambos possuem as mesmas características para modificação, sempre devemos lembrar de separar os elementos por vírgula(,)*/
+
+}
+img,video{
+    width: 50%;
+    height: 35%;
+}
+hr{
+    border: 1px solid;/*Define a largura a largura e o tipo de borda*/
+    border-color: rgb(136, 44, 211);/*Define a cor da borda(linha)*/
+    width: 50%;
+    height: 35%;
+}
+/*Abaixo estamos estilizando o icone por meio da classe do comando usando o ponto (.) antes do nome*/
+.icone{
+    border-radius: 50%;
+    width: 7%;
+    height: 7%;
+}
+section{
+    /*modificacao aula 24/10*/
+    /*Estilizando o elemento pelo nome comando*/
+    background-color: rgb(180, 141, 216);
+    border: 1px solid;
+    border-color: rgb(61, 2, 128);
+    margin:5%;
+    padding: 2%;/*Define o espaco entre o limite da pagina web e os elementos em que ele esta contido*/
+}
+/*modificacao aula 24/10*/
+
+.ladoalado{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+}
+ 
+.menu-item{
+    text-decoration: none;
+    color:black;
+    font-weight: bold; /* Define o texto como negrito */
+    gap:10px;
+}
+.menu-item:hover{
+   font-weight: 100;
+   color: blanchedalmond;
+   background-color: bisque;
+}
+
+#inicio{
+    margin-top: 60px;
+}
